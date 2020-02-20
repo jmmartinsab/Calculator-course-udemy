@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Calculadora Apple - Jose Manuel Martín</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <h1>Calculadora</h1>
+
+    <div class="calculator"> <!--Pantalla calculadora -->
+        <input class="calculator__screen" type="text" value="0" placeholder="" disabled >
+        <div class="calculator__keypad"> <!--Teclado-->
+            <button onclick="getContentClick(event)" class="btn btn-dark">AC</button> <!--Primera fila de botones-->
+            <button onclick="getContentClick(event)" class="btn btn-dark">+/-</button>
+            <button onclick="getContentClick(event)" class="btn btn-dark">%</button>
+            <button onclick="getContentClick(event)" class="btn btn-orange">÷</button>
+
+            <button onclick="getContentClick(event)" class="btn btn">7</button> <!--Segunda fila de botones-->
+            <button onclick="getContentClick(event)" class="btn btn">8</button>
+            <button onclick="getContentClick(event)" class="btn btn">9</button>
+            <button onclick="getContentClick(event)" class="btn btn-orange">×</button>
+
+            <button onclick="getContentClick(event)" class="btn btn">4</button> <!--Tercera fila de botones-->
+            <button onclick="getContentClick(event)" class="btn btn">5</button>
+            <button onclick="getContentClick(event)" class="btn btn">6</button>
+            <button onclick="getContentClick(event)" class="btn btn-orange">-</button>
+
+            <button onclick="getContentClick(event)" class="btn btn">1</button> <!--Cuarta fila de botones-->
+            <button onclick="getContentClick(event)" class="btn btn">2</button>
+            <button onclick="getContentClick(event)" class="btn btn">3</button>
+            <button onclick="getContentClick(event)" class="btn btn-orange">+</button>
+
+            <button onclick="getContentClick(event)" class="btn btn-double">0</button> <!--Quinta fila de botones-->
+            <button onclick="getContentClick(event)" class="btn btn">,</button>
+            <button onclick="getContentClick(event)" class="btn btn-orange">=</button>
+        </div>
+    </div>
+
+</body>
+</html>
